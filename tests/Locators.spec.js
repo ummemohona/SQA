@@ -7,12 +7,12 @@ test('Locators', async ({page})=>{
     await page.goto('https://www.demoblaze.com/');
 
     // *********** Locating elements - Link & Buttons **************
-    //Approch 01 -  await page.locator('attribute/CSS/Xpath').click() this is the method for locating any element
+    //Approach 01 -  await page.locator('attribute/CSS/Xpath').click() this is the method for locating any element
     //locating the login button - property 
 
     // await page.locator('id=login2').click();
 
-    //Approch 02 - await page.click('locator) - better for button/ links
+    //Approach 02 - await page.click('locator) - better for button/ links
 
     await page.click('id=login2');
 
