@@ -1,6 +1,6 @@
 import{test, expect} from '@playwright/test';
 
-test('CheckBox Handle', async ({page})=> {
+test('Dropdown Handle', async ({page})=> {
 
     //lanching the page
 
